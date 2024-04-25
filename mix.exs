@@ -6,6 +6,7 @@ defmodule EXE.Mixfile do
     [ app: :exe,
       version: "7.11.0",
       description: "EXE Shell Execution",
+      elixir: "~> 1.11",
       package: package(),
       deps: deps()]
   end
